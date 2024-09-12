@@ -13,7 +13,7 @@ This project report explores the complexities of the Automatic Seeding System, e
 
 ## Documentation
 
-1.[Project Report](https://github.com/lakshithagnk/Automated-Seeding-Robot/blob/48214514053fb5d0d43bf8018c96057395d11a64/Media/Automated%20seeding%20robot%20report.pdf)
+- [Project Report](https://github.com/lakshithagnk/Automated-Seeding-Robot/blob/48214514053fb5d0d43bf8018c96057395d11a64/Media/Automated%20seeding%20robot%20report.pdf)
 
 
 ## contributors
