@@ -5,7 +5,7 @@ This project report explores the complexities of the Automatic Seeding System, e
 
 ![seeding robot](https://github.com/lakshithagnk/Automated-Seeding-Robot/blob/ebb9f330f738c8a6a2f521752e0796b6f3931ad5/Media/img.png)
 
-# Instruction to run simulation.
+## Instruction to run simulation.
 
 1. Launch MATLAB.
 2. Open and run the "seeding_robot_01_DataFile.m" file.
