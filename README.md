@@ -5,6 +5,6 @@ This project report explores the complexities of the Automatic Seeding System, e
 
 # Instruction to run simulation.
 
-1. Launch MATLAB.![MATLAB Logo]([https://example.com/path_to_matlab_logo.png](https://www.pngwing.com/en/free-png-avhih))
+1. Launch MATLAB.
 2. Open and run the "seeding_robot_01_DataFile.m" file.
 3. Open and run the Simulink file "seeding_robot_01.xls".
