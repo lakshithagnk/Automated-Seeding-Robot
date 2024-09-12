@@ -3,6 +3,8 @@ The ”Automatic Seeding System” is a revolutionary solution that can signific
 The needs of a growing worldwide population are gradually outstripping traditional seeding methods, which depend on physical labour and inaccurate methodologies. By automating and utilizing cutting-edge technologies in the crucial process of seed planting, the Automatic Seeding System aims to completely transform the agricultural industry.
 This project report explores the complexities of the Automatic Seeding System, explaining its goals, underlying technology, and expected effects on farming methods. Through the integration of sustainability, efficiency, and precision, this novel method has the potential to maximize crop yields while simultaneously bolstering the resilience and sustainability of contemporary farming practices. We will discuss the specific objectives, technological underpinnings, and wider ramifications of this innovative seeding strategy in the sections that follow. We envision a time when agriculture and cutting-edge technologies coexist peacefully in the future, to the mutual benefit of farmers and the world food chain.
 
+![seeding robot](https://github.com/lakshithagnk/Automated-Seeding-Robot/blob/ebb9f330f738c8a6a2f521752e0796b6f3931ad5/Media/img.png)
+
 # Instruction to run simulation.
 
 1. Launch MATLAB.
