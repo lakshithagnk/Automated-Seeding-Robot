@@ -10,3 +10,14 @@ This project report explores the complexities of the Automatic Seeding System, e
 1. Launch MATLAB.
 2. Open and run the "seeding_robot_01_DataFile.m" file.
 3. Open and run the Simulink file "seeding_robot_01.xls".
+
+## Documentation
+
+1.[Project Report](https://github.com/lakshithagnk/Automated-Seeding-Robot/blob/48214514053fb5d0d43bf8018c96057395d11a64/Media/Automated%20seeding%20robot%20report.pdf)
+
+
+## contributors
+
+- [@lakshithagnk](https://github.com/lakshithagnk)
+- [@Kavishka0220](https://github.com/Kavishka0220)
+- [@............]
