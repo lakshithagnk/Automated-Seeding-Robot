@@ -1,0 +1,5 @@
+# instruction to run the simulation
+
+1. open mathalb.
+2. run "seeding_robot_01_DataFile.m" file.
+3. open simulink file "seeding_robot_01.xls" and run.

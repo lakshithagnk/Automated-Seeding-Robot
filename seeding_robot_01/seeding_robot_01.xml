@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/01/23||09:52:54" using="Simscape Multibody Link Version 7.0" from="SolidWorks 26.4.0"/>
+<ModelUnits mass="kilogram" length="centimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Assem_cart" uid="Assem_cart" version="572">
+<AssemblyFile name="Assem_cart.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="weel01-2" uid="weel01-2" entityUid="weel01*:*Default">
+<Transform>
+<Rotation>-0.88581713641105675 -0.46403448238306094 -6.9480193500901689e-15 6.1002092072849e-15 3.3280921078400235e-15 -0.99999999999999989 0.46403448238306094 -0.88581713641105675 -1.173735987482553e-16</Rotation>
+<Translation>0.18462448962161318 -0.45599999999999197 -0.036745792606744349</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.51764705882352935" g="0.52941176470588236" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.51764705882352935" g="0.52941176470588236" b="0.5490196078431373" a="1"/>
+<Specular r="0.25882352941176467" g="0.26470588235294118" b="0.27450980392156865" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="cartpart01-1" uid="cartpart01-1" grounded="true" entityUid="cartpart01*:*Default">
+<Transform>
+<Rotation>0 1 -6.982962677686243e-15 0 -6.9829626776862423e-15 -1 -1 0 0</Rotation>
+<Translation>-0.29529653854633553 -0.1949999999999884 -0.02674579260674436</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="weel01-1" uid="weel01-1" entityUid="weel01*:*Default">
+<Transform>
+<Rotation>0.044736713208751611 -0.99899881205699037 6.9829626776863069e-15 -3.1239479865908177e-16 6.975971419646921e-15 1 -0.99899881205699037 -0.044736713208751611 0</Rotation>
+<Translation>-0.16529653854633528 -0.18399999999998937 -0.036745792606744238</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.51764705882352935" g="0.52941176470588236" b="0.5490196078431373" a="1"/>
+<Diffuse r="0.51764705882352935" g="0.52941176470588236" b="0.5490196078431373" a="1"/>
+<Specular r="0.25882352941176467" g="0.26470588235294118" b="0.27450980392156865" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="bolt-1" uid="bolt-1" entityUid="bolt*:*Default">
+<Transform>
+<Rotation>0.42855902185027517 0.90351378782547387 6.738984034934903e-15 -3.1698568089078063e-15 -5.9550981667404705e-15 0.99999999999999989 0.90351378782547387 -0.42855902185027517 3.1189828692013267e-16</Rotation>
+<Translation>0.045045115636197675 -0.3260816586084081 -0.07339028563231699</Translation>
+</Transform>
+</Instance>
+<Instance name="gate-1" uid="gate-1" entityUid="gate*:*Default">
+<Transform>
+<Rotation>-6.982170406729002e-15 -1 0 -1 6.9821704067290028e-15 -2.7755575615628844e-16 2.7755575615628914e-16 0 -1</Rotation>
+<Translation>0.27168400465515652 -0.30525347052558188 0.021912208583094495</Translation>
+</Transform>
+</Instance>
+<Instance name="gate_arm-1" uid="gate_arm-1" entityUid="gate_arm*:*Default">
+<Transform>
+<Rotation>4.6371625390254366e-15 -5.0840476900986209e-15 0.99999999999999989 0.67588956682552448 -0.73700291278692021 -6.8811677361517505e-15 0.73700291278692021 0.67588956682552448 0</Rotation>
+<Translation>0.2675261610257173 -0.42257507825697943 0.018743315267412752</Translation>
+</Transform>
+</Instance>
+<Instance name="scavate_top_part-1" uid="scavate_top_part-1" entityUid="scavate_top_part*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.12613915366560674 -0.28084770114941576 0.0032542073932556731</Translation>
+</Transform>
+</Instance>
+<Instance name="scavate_part-2" uid="scavate_part-2" entityUid="scavate_part*:*Default">
+<Transform>
+<Rotation>-0.96000769761916072 6.9858895268441971e-15 -0.27997360681313965 6.7074623364769858e-15 1 1.9525913837319355e-15 0.27997360681313965 0 -0.96000769761916072</Rotation>
+<Translation>-0.10440925746672945 -0.38499999999999007 -0.050116222364875111</Translation>
+</Transform>
+</Instance>
+<Instance name="gate_arm02-1" uid="gate_arm02-1" entityUid="gate_arm02*:*Default">
+<Transform>
+<Rotation>6.8289280121963709e-15 1.4611750969560799e-15 1 0.9751920753061698 0.22136037644539192 -6.9829627498450453e-15 -0.22136037644539192 0.9751920753061698 0</Rotation>
+<Translation>0.27250084314312834 -0.4025285264636112 0.017023395829668306</Translation>
+</Transform>
+</Instance>
+<Instance name="bolt02-1" uid="bolt02-1" entityUid="bolt02*:*Default">
+<Transform>
+<Rotation>0.90351378782547387 -0.42855902185027522 6.9509461992308927e-15 -6.2314354571315583e-15 3.0818586902352626e-15 1 -0.42855902185027522 -0.90351378782547387 1.1396393452589392e-16</Rotation>
+<Translation>0.077144900792041532 -0.3297816586084083 -0.0057155967427362214</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999742 0.12999999999999998 0.32300000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>weel01-1</Uid>
+</InstancePath>
+<Position>0 0 -0.27200000000000002</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999742 0.12999999999999998 -0.010999999999999982</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>weel01-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999187 0.47992102816795035 0.32300000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>weel01-2</Uid>
+</InstancePath>
+<Position>0 0 -0.27199999999999991</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999187 0.47992102816795035 0.26100000000000007</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>weel01-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>0.023370429758130452 0.19088728107960723 0.020000000000000073</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>scavate_part-2</Uid>
+</InstancePath>
+<Position>0 0.12999999999999995 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>0.020000000000000004 0.19088728107960723 0.19000000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>scavate_part-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>scavate_part-2</Uid>
+</InstancePath>
+<Position>-0.1499934720598356 0.05553249103453467 -0.019499999999999997</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bolt-1</Uid>
+</InstancePath>
+<Position>0 0 0.0126</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>scavate_part-2</Uid>
+</InstancePath>
+<Position>-0.18001305588032906 0.071518341391582696 -0.011999999999999983</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>bolt-1</Uid>
+</InstancePath>
+<Position>0 0 0.0126</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>-0.048672262821911019 0.55809738168946521 0.060000000000000053</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gate-1</Uid>
+</InstancePath>
+<Position>-0.048384879725085872 0.0088831615120275043 0.0183</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>-0.030358001189838876 0.55809738168946521 0.060000000000000053</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gate-1</Uid>
+</InstancePath>
+<Position>0 0 0.0183</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric7">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>-0.038600000000000051 0.56782269957205433 0.2349493692245827</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gate_arm-1</Uid>
+</InstancePath>
+<Position>-0.010061498897490584 0.00077859778597794138 -0.010000000000000009</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gate-1</Uid>
+</InstancePath>
+<Position>0.078502608488385528 -0.0058168384879724866 0.0091500000000000019</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gate_arm02-1</Uid>
+</InstancePath>
+<Position>0.019249999999999989 0 0.0049999999999999489</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident19">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gate-1</Uid>
+</InstancePath>
+<Position>0.081615120274914132 -0.00081683848797253766 0.0091499999999999984</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gate_arm02-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric9">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gate_arm-1</Uid>
+</InstancePath>
+<Position>0.0027340756102493535 0.00077859778597788587 0.010000000000000009</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gate_arm02-1</Uid>
+</InstancePath>
+<Position>-0.019249999999999989 0 0.0050000000000000044</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>-0.038600000000000051 0.56782269957205433 0.2349493692245827</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>gate_arm-1</Uid>
+</InstancePath>
+<Position>-0.010061498897490584 0.00077859778597794138 -0.010000000000000009</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident22">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>-0.043600000000000048 0.56532269957205439 0.23994936922458265</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>gate_arm-1</Uid>
+</InstancePath>
+<Position>0 0 0.0025000000000000022</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bolt-1</Uid>
+</InstancePath>
+<Position>0.0099999999999999881 0 0.0063000000000000278</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bolt02-1</Uid>
+</InstancePath>
+<Position>0 0.060000000000000005 0.0099999999999999534</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric21">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>scavate_top_part-1</Uid>
+</InstancePath>
+<Position>-0.04899425287356321 -0.050318176264029402 -0.0089698041359961914</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>bolt02-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>-0.010000000000000002 0.0099999999999999534 0.25000000000000006</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>scavate_top_part-1</Uid>
+</InstancePath>
+<Position>0 0 -0.019999999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident42">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>cartpart01-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>scavate_top_part-1</Uid>
+</InstancePath>
+<Position>-0.073994252873563232 0.085847701149425304 0.01</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="bolt" uid="bolt*:*Default" version="219">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="bolt.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0023487323102921436</Mass>
+<CenterOfMass>0.0094795742872445365 5.9018925299934901e-07 0.006299936866541911</CenterOfMass>
+<Inertia>7.0161546592834612e-08 2.6959377977006663e-07 2.7605098684426544e-07 1.6334568898068916e-12 7.1081998319962632e-14 6.3899134508696101e-12</Inertia>
+</MassProperties>
+<GeometryFile name="bolt_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="bolt02" uid="bolt02*:*Default" version="147">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="bolt02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00495447051417268</Mass>
+<CenterOfMass>-2.652277386149087e-07 0.028195743397699074 0.009999977456950809</CenterOfMass>
+<Inertia>1.7551269772055159e-06 7.2894997705145209e-08 1.7631072282574816e-06 -9.3907447037335196e-13 -1.4658930297408387e-12 -2.359074190007373e-11</Inertia>
+</MassProperties>
+<GeometryFile name="bolt02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="cartpart01" uid="cartpart01*:*Default" version="1588">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="cartpart01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.2785899432296834</Mass>
+<CenterOfMass>-0.028846092303754057 0.21818246012444373 0.11715109073962229</CenterOfMass>
+<Inertia>0.13047330367705592 0.02419436345782101 0.11391944257506503 -0.0024630063949756553 -0.00030300301626710375 0.0020615466500789703</Inertia>
+</MassProperties>
+<GeometryFile name="cartpart01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gate" uid="gate*:*Default" version="130">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="gate.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.035410303641529986</Mass>
+<CenterOfMass>0.0055161016085801609 0.0016184884439407383 0.0087891074969381651</CenterOfMass>
+<Inertia>1.639007334510536e-06 6.819673546305425e-05 6.7823047373592426e-05 -1.0904195800933116e-09 -4.5196588154405906e-10 -2.1663628579248324e-07</Inertia>
+</MassProperties>
+<GeometryFile name="gate_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.25098039215686274" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.25098039215686274" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.12549019607843137" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gate_arm" uid="gate_arm*:*Default" version="156">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="gate_arm.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00054471102994528759</Mass>
+<CenterOfMass>-0.00066277056397896761 0.00077859778597785811 0.0046919453121811953</CenterOfMass>
+<Inertia>7.5760201066098209e-09 1.531617704251523e-08 1.9015658158185702e-08 0 -1.7428810137500668e-09 0</Inertia>
+</MassProperties>
+<GeometryFile name="gate_arm_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="gate_arm02" uid="gate_arm02*:*Default" version="119">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="gate_arm02.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014904314316015999</Mass>
+<CenterOfMass>0 0 0.0025000000000000005</CenterOfMass>
+<Inertia>1.1745267615728836e-08 1.885243707261845e-07 1.9405950737690668e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="gate_arm02_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="scavate_part" uid="scavate_part*:*Default" version="253">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="scavate_part.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.27264684004248485</Mass>
+<CenterOfMass>-0.097754310631750538 0.065006048596031971 0.0018603841584518954</CenterOfMass>
+<Inertia>0.00092180933083406706 0.0012011365312874557 0.0020715679838702455 -1.981942010302445e-07 4.0764342020589894e-05 -1.36194046587758e-07</Inertia>
+</MassProperties>
+<GeometryFile name="scavate_part_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="scavate_top_part" uid="scavate_top_part*:*Default" version="129">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="scavate_top_part.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.15262423081278007</Mass>
+<CenterOfMass>-0.048994252873563224 -0.039158000327867135 0.0024308174171664598</CenterOfMass>
+<Inertia>0.00094691873668195127 3.6967765024037934e-05 0.00097101286833183725 -2.0472386876243514e-08 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="scavate_top_part_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="weel01" uid="weel01*:*Default" version="278">
+<ModelUnits mass="kilogram" length="centimeter"/>
+<PartFile name="weel01.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.96278029116011477</Mass>
+<CenterOfMass>1.1009322314784221e-15 0 -0.13317805135330957</CenterOfMass>
+<Inertia>0.025436908129002848 0.025436908129002653 0.0043763278125945795 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="weel01_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.40156863343481924" g="0.40156863343481924" b="0.40156863343481924" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
