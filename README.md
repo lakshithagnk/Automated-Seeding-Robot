@@ -11,7 +11,7 @@ This project report explores the complexities of the Automatic Seeding System, e
 2. Open and run the "seeding_robot_01_DataFile.m" file.
 3. Open and run the Simulink file "seeding_robot_01.xls".
 
-![seeding robot animation]([https://github.com/lakshithagnk/Automated-Seeding-Robot/blob/ebb9f330f738c8a6a2f521752e0796b6f3931ad5/Media/img.png](https://github.com/lakshithagnk/Automated-Seeding-Robot/blob/main/Media/seeding-robot-01.gif))
+![seeding robot animation](https://github.com/lakshithagnk/Automated-Seeding-Robot/blob/06721ca08e35649837e454c15ace852b9f51d4c3/Media/seeding-robot-01.gif)
 
 ## Documentation
 
